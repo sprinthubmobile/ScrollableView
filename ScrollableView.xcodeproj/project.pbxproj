@@ -10,6 +10,21 @@
 		259B3DB623F862D100F08787 /* ScrollableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259B3DAC23F862D000F08787 /* ScrollableView.framework */; };
 		259B3DBB23F862D100F08787 /* ScrollableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DBA23F862D100F08787 /* ScrollableViewTests.swift */; };
 		259B3DBD23F862D100F08787 /* ScrollableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 259B3DAF23F862D000F08787 /* ScrollableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		259B3DF523F867D700F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
+		259B3DF623F867D700F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
+		259B3DFB23F8682800F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
+		259B3DFC23F8682800F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
+		259B3E0423F86A2D00F08787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0323F86A2D00F08787 /* AppDelegate.swift */; };
+		259B3E0623F86A2D00F08787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0523F86A2D00F08787 /* SceneDelegate.swift */; };
+		259B3E0823F86A2E00F08787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0723F86A2D00F08787 /* ViewController.swift */; };
+		259B3E0B23F86A2E00F08787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259B3E0923F86A2E00F08787 /* Main.storyboard */; };
+		259B3E0D23F86A3000F08787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259B3E0C23F86A3000F08787 /* Assets.xcassets */; };
+		259B3E1023F86A3000F08787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259B3E0E23F86A3000F08787 /* LaunchScreen.storyboard */; };
+		259B3E1B23F86A3100F08787 /* ScrollableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E1A23F86A3100F08787 /* ScrollableViewExampleUITests.swift */; };
+		259B3E2323F8710800F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
+		259B3E2423F8710A00F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
+		259B3E2523F8710F00F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
+		259B3E2623F8711000F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +35,13 @@
 			remoteGlobalIDString = 259B3DAB23F862D000F08787;
 			remoteInfo = ScrollableView;
 		};
+		259B3E1723F86A3100F08787 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259B3DA323F862D000F08787 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259B3E0023F86A2D00F08787;
+			remoteInfo = ScrollableViewExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +51,19 @@
 		259B3DB523F862D100F08787 /* ScrollableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		259B3DBA23F862D100F08787 /* ScrollableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableViewTests.swift; sourceTree = "<group>"; };
 		259B3DBC23F862D100F08787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259B3DF423F867D700F08787 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
+		259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		259B3E0123F86A2D00F08787 /* ScrollableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259B3E0323F86A2D00F08787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259B3E0523F86A2D00F08787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		259B3E0723F86A2D00F08787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259B3E0A23F86A2E00F08787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259B3E0C23F86A3000F08787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259B3E0F23F86A3000F08787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259B3E1123F86A3000F08787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259B3E1623F86A3100F08787 /* ScrollableViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259B3E1A23F86A3100F08787 /* ScrollableViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableViewExampleUITests.swift; sourceTree = "<group>"; };
+		259B3E1C23F86A3100F08787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		259B3DFE23F86A2D00F08787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B3E1323F86A3100F08787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +104,8 @@
 			children = (
 				259B3DAE23F862D000F08787 /* ScrollableView */,
 				259B3DB923F862D100F08787 /* ScrollableViewTests */,
+				259B3E0223F86A2D00F08787 /* ScrollableViewExample */,
+				259B3E1923F86A3100F08787 /* ScrollableViewExampleUITests */,
 				259B3DAD23F862D000F08787 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +115,8 @@
 			children = (
 				259B3DAC23F862D000F08787 /* ScrollableView.framework */,
 				259B3DB523F862D100F08787 /* ScrollableViewTests.xctest */,
+				259B3E0123F86A2D00F08787 /* ScrollableViewExample.app */,
+				259B3E1623F86A3100F08787 /* ScrollableViewExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +126,8 @@
 			children = (
 				259B3DAF23F862D000F08787 /* ScrollableView.h */,
 				259B3DB023F862D000F08787 /* Info.plist */,
+				259B3DF423F867D700F08787 /* ScrollableView.swift */,
+				259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */,
 			);
 			path = ScrollableView;
 			sourceTree = "<group>";
@@ -84,6 +139,29 @@
 				259B3DBC23F862D100F08787 /* Info.plist */,
 			);
 			path = ScrollableViewTests;
+			sourceTree = "<group>";
+		};
+		259B3E0223F86A2D00F08787 /* ScrollableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				259B3E0323F86A2D00F08787 /* AppDelegate.swift */,
+				259B3E0523F86A2D00F08787 /* SceneDelegate.swift */,
+				259B3E0723F86A2D00F08787 /* ViewController.swift */,
+				259B3E0923F86A2E00F08787 /* Main.storyboard */,
+				259B3E0C23F86A3000F08787 /* Assets.xcassets */,
+				259B3E0E23F86A3000F08787 /* LaunchScreen.storyboard */,
+				259B3E1123F86A3000F08787 /* Info.plist */,
+			);
+			path = ScrollableViewExample;
+			sourceTree = "<group>";
+		};
+		259B3E1923F86A3100F08787 /* ScrollableViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259B3E1A23F86A3100F08787 /* ScrollableViewExampleUITests.swift */,
+				259B3E1C23F86A3100F08787 /* Info.plist */,
+			);
+			path = ScrollableViewExampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +214,41 @@
 			productReference = 259B3DB523F862D100F08787 /* ScrollableViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		259B3E0023F86A2D00F08787 /* ScrollableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259B3E1D23F86A3100F08787 /* Build configuration list for PBXNativeTarget "ScrollableViewExample" */;
+			buildPhases = (
+				259B3DFD23F86A2D00F08787 /* Sources */,
+				259B3DFE23F86A2D00F08787 /* Frameworks */,
+				259B3DFF23F86A2D00F08787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollableViewExample;
+			productName = ScrollableViewExample;
+			productReference = 259B3E0123F86A2D00F08787 /* ScrollableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259B3E1523F86A3100F08787 /* ScrollableViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259B3E2023F86A3100F08787 /* Build configuration list for PBXNativeTarget "ScrollableViewExampleUITests" */;
+			buildPhases = (
+				259B3E1223F86A3100F08787 /* Sources */,
+				259B3E1323F86A3100F08787 /* Frameworks */,
+				259B3E1423F86A3100F08787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259B3E1823F86A3100F08787 /* PBXTargetDependency */,
+			);
+			name = ScrollableViewExampleUITests;
+			productName = ScrollableViewExampleUITests;
+			productReference = 259B3E1623F86A3100F08787 /* ScrollableViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,9 +261,17 @@
 				TargetAttributes = {
 					259B3DAB23F862D000F08787 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					259B3DB423F862D100F08787 = {
 						CreatedOnToolsVersion = 11.3.1;
+					};
+					259B3E0023F86A2D00F08787 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					259B3E1523F86A3100F08787 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 259B3E0023F86A2D00F08787;
 					};
 				};
 			};
@@ -169,6 +290,8 @@
 			targets = (
 				259B3DAB23F862D000F08787 /* ScrollableView */,
 				259B3DB423F862D100F08787 /* ScrollableViewTests */,
+				259B3E0023F86A2D00F08787 /* ScrollableViewExample */,
+				259B3E1523F86A3100F08787 /* ScrollableViewExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +311,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		259B3DFF23F86A2D00F08787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259B3E1023F86A3000F08787 /* LaunchScreen.storyboard in Resources */,
+				259B3E0D23F86A3000F08787 /* Assets.xcassets in Resources */,
+				259B3E0B23F86A2E00F08787 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B3E1423F86A3100F08787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				259B3DFB23F8682800F08787 /* Extension+UIViewController.swift in Sources */,
+				259B3DF523F867D700F08787 /* ScrollableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +345,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				259B3DBB23F862D100F08787 /* ScrollableViewTests.swift in Sources */,
+				259B3DF623F867D700F08787 /* ScrollableView.swift in Sources */,
+				259B3DFC23F8682800F08787 /* Extension+UIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B3DFD23F86A2D00F08787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259B3E0823F86A2E00F08787 /* ViewController.swift in Sources */,
+				259B3E2323F8710800F08787 /* ScrollableView.swift in Sources */,
+				259B3E0423F86A2D00F08787 /* AppDelegate.swift in Sources */,
+				259B3E2523F8710F00F08787 /* Extension+UIViewController.swift in Sources */,
+				259B3E0623F86A2D00F08787 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259B3E1223F86A3100F08787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259B3E1B23F86A3100F08787 /* ScrollableViewExampleUITests.swift in Sources */,
+				259B3E2423F8710A00F08787 /* ScrollableView.swift in Sources */,
+				259B3E2623F8711000F08787 /* Extension+UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +380,31 @@
 			target = 259B3DAB23F862D000F08787 /* ScrollableView */;
 			targetProxy = 259B3DB723F862D100F08787 /* PBXContainerItemProxy */;
 		};
+		259B3E1823F86A3100F08787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259B3E0023F86A2D00F08787 /* ScrollableViewExample */;
+			targetProxy = 259B3E1723F86A3100F08787 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259B3E0923F86A2E00F08787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259B3E0A23F86A2E00F08787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259B3E0E23F86A3000F08787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259B3E0F23F86A3000F08787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		259B3DBE23F862D100F08787 /* Debug */ = {
@@ -340,6 +530,7 @@
 		259B3DC123F862D100F08787 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
@@ -356,6 +547,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.ios.ScrollableView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +556,7 @@
 		259B3DC223F862D100F08787 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
@@ -388,6 +581,7 @@
 		259B3DC423F862D100F08787 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
 				INFOPLIST_FILE = ScrollableViewTests/Info.plist;
@@ -406,6 +600,7 @@
 		259B3DC523F862D100F08787 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22FN4D2YAD;
 				INFOPLIST_FILE = ScrollableViewTests/Info.plist;
@@ -418,6 +613,82 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259B3E1E23F86A3100F08787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = ScrollableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.ios.ScrollableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259B3E1F23F86A3100F08787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = ScrollableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.ios.ScrollableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259B3E2123F86A3100F08787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = ScrollableViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.ios.ScrollableViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollableViewExample;
+			};
+			name = Debug;
+		};
+		259B3E2223F86A3100F08787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22FN4D2YAD;
+				INFOPLIST_FILE = ScrollableViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sprinthubmobile.ios.ScrollableViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScrollableViewExample;
 			};
 			name = Release;
 		};
@@ -447,6 +718,24 @@
 			buildConfigurations = (
 				259B3DC423F862D100F08787 /* Debug */,
 				259B3DC523F862D100F08787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259B3E1D23F86A3100F08787 /* Build configuration list for PBXNativeTarget "ScrollableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B3E1E23F86A3100F08787 /* Debug */,
+				259B3E1F23F86A3100F08787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259B3E2023F86A3100F08787 /* Build configuration list for PBXNativeTarget "ScrollableViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259B3E2123F86A3100F08787 /* Debug */,
+				259B3E2223F86A3100F08787 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
