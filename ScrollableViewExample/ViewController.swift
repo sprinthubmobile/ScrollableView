@@ -10,18 +10,10 @@ import UIKit
 
 class ViewController: ScrollableView {
     
-    lazy var content: UIStackView = {
-        let contentView = UIStackView(frame: .zero)
-        contentView.axis = .vertical
-        contentView.translatesAutoresizingMaskIntoConstraints = false
-        contentView.clipsToBounds = true
-        return contentView
-    }()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.embedInScrollView(self.content)
+        self.setup()
         self.createViews()
     }
     
@@ -40,7 +32,7 @@ class ViewController: ScrollableView {
             view.translatesAutoresizingMaskIntoConstraints  = false
             view.clipsToBounds = true
             view.backgroundColor = colors.randomElement()
-            self.content.addArrangedSubview(view)
+            self.addView(view: view)
             view.heightAnchor.constraint(equalToConstant: 200).isActive = true             
         }
         

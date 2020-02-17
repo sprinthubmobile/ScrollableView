@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "ScrollableView"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of ScrollableView."
+  spec.summary      = "Quickly make your view scrollable as the content size increases."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+  Quickly make your view scrollable as the content size increases. 
+  it works by creating a stackview and embedding in a scrollview.
+  all future content can then go in the stackview
                    DESC
 
   spec.homepage     = "https://github.com/sprinthubmobile/ScrollableView"
@@ -38,8 +41,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "./LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,11 +66,12 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "8.0"
+  spec.ios.deployment_target = "10.0"
+  spec.swift_version = '4.2'
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -91,7 +95,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "ScrollableView", "ScrollableView/**/*.{h,m,swift}"
-  #spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = "ScrollableViewExample"
 
   # spec.public_header_files = "Classes/**/*.h"
 

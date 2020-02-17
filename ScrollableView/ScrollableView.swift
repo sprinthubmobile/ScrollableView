@@ -10,11 +10,16 @@ import UIKit
 
 class ScrollableView: UIViewController {
     
-    init() {
-        super.init(nibName: nil, bundle: nil)
-    }
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
+    lazy var content: UIStackView = {
+        let contentView = UIStackView(frame: .zero)
+        contentView.axis = .vertical
+        contentView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.clipsToBounds = true
+        return contentView
+    }()
+    
+    func setup() {
+        self.embedInScrollView(self.content)
     }
     
     func embedInScrollView(_ content: UIView) {
@@ -48,6 +53,10 @@ class ScrollableView: UIViewController {
             scrollView.setNeedsDisplay()
             scrollView.layoutIfNeeded()
        }
+    }
+    
+    func addView(view: Any) {
+        self.content.addArrangedSubview(view as! UIView)
     }
     
 }
