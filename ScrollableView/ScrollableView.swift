@@ -10,7 +10,7 @@ import UIKit
 
 open class ScrollableView: UIViewController {
     
-    lazy var content: UIView = {
+    public lazy var content: UIView = {
         let contentView = UIView(frame: .zero)
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.clipsToBounds = true
