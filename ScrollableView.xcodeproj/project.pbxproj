@@ -12,8 +12,6 @@
 		259B3DBD23F862D100F08787 /* ScrollableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 259B3DAF23F862D000F08787 /* ScrollableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		259B3DF523F867D700F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
 		259B3DF623F867D700F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
-		259B3DFB23F8682800F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
-		259B3DFC23F8682800F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
 		259B3E0423F86A2D00F08787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0323F86A2D00F08787 /* AppDelegate.swift */; };
 		259B3E0623F86A2D00F08787 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0523F86A2D00F08787 /* SceneDelegate.swift */; };
 		259B3E0823F86A2E00F08787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E0723F86A2D00F08787 /* ViewController.swift */; };
@@ -23,8 +21,6 @@
 		259B3E1B23F86A3100F08787 /* ScrollableViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3E1A23F86A3100F08787 /* ScrollableViewExampleUITests.swift */; };
 		259B3E2323F8710800F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
 		259B3E2423F8710A00F08787 /* ScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DF423F867D700F08787 /* ScrollableView.swift */; };
-		259B3E2523F8710F00F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
-		259B3E2623F8711000F08787 /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +48,6 @@
 		259B3DBA23F862D100F08787 /* ScrollableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableViewTests.swift; sourceTree = "<group>"; };
 		259B3DBC23F862D100F08787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		259B3DF423F867D700F08787 /* ScrollableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableView.swift; sourceTree = "<group>"; };
-		259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
 		259B3E0123F86A2D00F08787 /* ScrollableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		259B3E0323F86A2D00F08787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259B3E0523F86A2D00F08787 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,7 +122,6 @@
 				259B3DAF23F862D000F08787 /* ScrollableView.h */,
 				259B3DB023F862D000F08787 /* Info.plist */,
 				259B3DF423F867D700F08787 /* ScrollableView.swift */,
-				259B3DFA23F8682800F08787 /* Extension+UIViewController.swift */,
 			);
 			path = ScrollableView;
 			sourceTree = "<group>";
@@ -335,7 +329,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				259B3DFB23F8682800F08787 /* Extension+UIViewController.swift in Sources */,
 				259B3DF523F867D700F08787 /* ScrollableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +339,6 @@
 			files = (
 				259B3DBB23F862D100F08787 /* ScrollableViewTests.swift in Sources */,
 				259B3DF623F867D700F08787 /* ScrollableView.swift in Sources */,
-				259B3DFC23F8682800F08787 /* Extension+UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +349,6 @@
 				259B3E0823F86A2E00F08787 /* ViewController.swift in Sources */,
 				259B3E2323F8710800F08787 /* ScrollableView.swift in Sources */,
 				259B3E0423F86A2D00F08787 /* AppDelegate.swift in Sources */,
-				259B3E2523F8710F00F08787 /* Extension+UIViewController.swift in Sources */,
 				259B3E0623F86A2D00F08787 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +359,6 @@
 			files = (
 				259B3E1B23F86A3100F08787 /* ScrollableViewExampleUITests.swift in Sources */,
 				259B3E2423F8710A00F08787 /* ScrollableView.swift in Sources */,
-				259B3E2623F8711000F08787 /* Extension+UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

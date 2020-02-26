@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ScrollableView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Quickly make your view scrollable as the content size increases."
 
   # This description is used to generate tags and improve search results.
@@ -70,7 +70,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Mark Boleigha" => "donhoenix@gmail.com" }
   # Or just: spec.author    = "Mark Boleigha"
   # spec.authors            = { "Mark Boleigha" => "donhoenix@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/Mark Boleigha"
+  spec.social_media_url   = "https://twitter.com/MarkBoleigha"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
