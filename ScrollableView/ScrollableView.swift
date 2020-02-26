@@ -10,11 +10,13 @@ import UIKit
 
 open class ScrollableView: UIViewController {
     
-    public lazy var content: UIView = {
-        let contentView = UIView(frame: .zero)
+    public lazy var content: UIStackView = {
+        let contentView = UIStackView(frame: .zero)
+        contentView.axis = .vertical
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.clipsToBounds = true
-        contentView.autoresizingMask = .flexibleWidth
+        contentView.distribution = .fill
+//        contentView.autoresizingMask = .flexibleWidth
         return contentView
     }()
     
@@ -29,8 +31,8 @@ open class ScrollableView: UIViewController {
         scrollView.clipsToBounds = true
         
 //        scrollView.addSubview(content
-//        let stackView = UIStackView(frame: .zero)
-//        stackView.axis = .vertical
+//
+//
 //        stackView.translatesAutoresizingMaskIntoConstraints = false
 //        stackView.clipsToBounds = true
         
@@ -53,24 +55,24 @@ open class ScrollableView: UIViewController {
                 self.content.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
                 self.content.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
                 self.content.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
-//                self.content.widthAnchor.constraint(equalTo: scrollView.widthAnchor),
-                self.content.centerYAnchor.constraint(equalTo: scrollView.centerYAnchor, constant: 200),
-//                    content.centerYAnchor.cont
+//                self.content.centerYAnchor.constraint(equalTo: scrollView.centerYAnchor, constant: 200),
            ])
             self.content.backgroundColor = .white
             
-//            stackView.addArrangedSubview(self.content)
             scrollView.backgroundColor = .none
             scrollView.setNeedsDisplay()
             scrollView.layoutIfNeeded()
        }
     }
     
-    public func addView(view: Any) {
+    public func addView(view: Any, at index: Int? = nil) {
         DispatchQueue.main.async {
-            self.content.addSubview(view as! UIView)
-            self.content.layoutIfNeeded()
-            self.content.subviews.last?.layoutIfNeeded()
+            (index != nil) ? self.content.insertArrangedSubview(view as! UIView, at: index!) : self.content.addArrangedSubview(view as! UIView)
+            
+//            self.content.addSubview(view as! UIView)
+//            self.content.layoutIfNeeded()
+//            self.content.subviews.last?.layoutIfNeeded()
+//            self.content.layoutIfNeeded()
         }
     }
     
