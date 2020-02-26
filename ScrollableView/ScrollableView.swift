@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class ScrollableView: UIViewController {
+open class ScrollableView: UIViewController {
     
     lazy var content: UIView = {
         let contentView = UIView(frame: .zero)
