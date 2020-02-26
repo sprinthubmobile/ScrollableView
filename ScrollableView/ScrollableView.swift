@@ -18,7 +18,7 @@ open class ScrollableView: UIViewController {
         return contentView
     }()
     
-    func setup() {
+    public func setup() {
         self.embedInScrollView(self.content)
     }
     
