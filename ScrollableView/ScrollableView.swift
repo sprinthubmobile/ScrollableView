@@ -20,15 +20,19 @@ open class ScrollableView: UIViewController {
         return contentView
     }()
     
+    public lazy var scrollView: UIScrollView = {
+        let scrollView = UIScrollView(frame: .zero)
+        scrollView.isDirectionalLockEnabled = true
+        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        scrollView.clipsToBounds = true
+        return scrollView
+    }()
+    
     public func setup() {
         self.embedInScrollView(self.content)
     }
     
     public func embedInScrollView(_ content: UIView) {
-        let scrollView = UIScrollView(frame: .zero)
-        scrollView.isDirectionalLockEnabled = true
-        scrollView.translatesAutoresizingMaskIntoConstraints = false
-        scrollView.clipsToBounds = true
         
 //        scrollView.addSubview(content
 //
@@ -36,32 +40,32 @@ open class ScrollableView: UIViewController {
 //        stackView.translatesAutoresizingMaskIntoConstraints = false
 //        stackView.clipsToBounds = true
         
-        scrollView.addSubview(self.content)
+        self.scrollView.addSubview(self.content)
         
         self.view.addSubview(scrollView)
         self.view.backgroundColor = .none
 
         DispatchQueue.main.async {
            NSLayoutConstraint.activate([
-                scrollView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
-                scrollView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
-                scrollView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
-                scrollView.topAnchor.constraint(equalTo: self.view.topAnchor),
-                scrollView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
-                scrollView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
+            self.scrollView.leftAnchor.constraint(equalTo: self.view.leftAnchor),
+            self.scrollView.rightAnchor.constraint(equalTo: self.view.rightAnchor),
+            self.scrollView.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+            self.scrollView.topAnchor.constraint(equalTo: self.view.topAnchor),
+            self.scrollView.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),
+            self.scrollView.centerYAnchor.constraint(equalTo: self.view.centerYAnchor),
                    
-                self.content.topAnchor.constraint(equalTo: scrollView.topAnchor),
-                self.content.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
-                self.content.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
-                self.content.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
-                self.content.centerXAnchor.constraint(equalTo: scrollView.centerXAnchor),
+            self.content.topAnchor.constraint(equalTo: self.scrollView.topAnchor),
+            self.content.leadingAnchor.constraint(equalTo: self.scrollView.leadingAnchor),
+            self.content.trailingAnchor.constraint(equalTo: self.scrollView.trailingAnchor),
+            self.content.bottomAnchor.constraint(equalTo: self.scrollView.bottomAnchor),
+            self.content.centerXAnchor.constraint(equalTo: self.scrollView.centerXAnchor),
 //                self.content.centerYAnchor.constraint(equalTo: scrollView.centerYAnchor, constant: 200),
            ])
             self.content.backgroundColor = .white
             
-            scrollView.backgroundColor = .none
-            scrollView.setNeedsDisplay()
-            scrollView.layoutIfNeeded()
+            self.scrollView.backgroundColor = .none
+            self.scrollView.setNeedsDisplay()
+            self.scrollView.layoutIfNeeded()
        }
     }
     
