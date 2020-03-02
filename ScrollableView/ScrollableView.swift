@@ -80,4 +80,9 @@ open class ScrollableView: UIViewController {
         }
     }
     
+    public func addViews(_ views: [Any]) {
+        for view in views {
+            self.content.addArrangedSubview(view as! UIView)
+        }
+    }
 }
